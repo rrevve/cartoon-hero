@@ -1,0 +1,29 @@
+body {
+	background-color: lightcoral;
+}
+
+h1 {
+font-size: 30px;
+color: greenyellow;
+}
+
+h2 {
+font-size: 20px;
+color: chocolate;
+}
+
+.big {
+font-size: 60px;
+}
+
+.uppercase {
+text-transform: uppercase;
+}
+
+.big.uppercase {
+color: navy;
+}
+
+h1 span {
+color: violet;
+}
