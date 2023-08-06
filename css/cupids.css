@@ -21,6 +21,98 @@ header h1 {
 	margin-bottom: 40px;
 }
 
+.menu {
+	background-color: white;
+}
+
+.menu:after {
+	content:'';
+	display: table;
+	clear: both;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.col {
+	background-color: white;
+	text-align: center;
+	color: lightgrey;
+	float: left;
+	padding: 20px 0;
+	width: 240px;
+	text-transform: uppercase;
+	box-sizing: border-box;
+}
+
+.col a {
+	color: lightgrey;
+}
+
+.col a:hover {
+	border: solid 1.5px;
+	border-color: darkred;
+	padding: 5px 50px;
+	color: darksalmon;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+.col1 {
+	background-color: white;
+	text-align: center;
+	color: lightgrey;
+	float: left;
+	padding: 20px 0;
+	width: 240px;
+	box-sizing: border-box;
+}
+
+.col1 a {
+	color: lightgrey;
+}
+
+.col1 a:hover {
+	border: solid 1.5px;
+	border-color: darkred;
+	padding: 5px 50px;
+	color: darksalmon;
+	font-style: italic;
+}
+
+.tabel {
+	width: 680px;
+	margin: 40px auto;
+
+}
+
+.tabel:after {
+	content:'';
+	display: table;
+	clear: both;
+}
+
+.cl {
+	background-color: #DFBDBD;
+	text-align: center;
+	color: #440005;
+	float: left;
+	padding: 10px;
+	width: 200px;
+	box-sizing: border-box;
+	margin-left: 20px;
+}
+
+.tabel2 {
+	width: 480px;
+	margin: 40px auto;
+}
+
+.tabel2:after {
+	content:'';
+	display: table;
+	clear: both;
+}
+
 h1, h2 {
 	color: white;
 	font-family: 'Cinzel', serif;
@@ -70,12 +162,15 @@ footer a:hover {
 footer {
 	background-color: #440005;
 	text-align: center;
-	padding: 50px;
+	padding: 50px 0;
 	color: ghostwhite;
+	width: 100%;
+	clear: both;
 }
 
 footer p {
-	margin: 0;
+	margin: 0 auto;
+	text-align: center;
 }
 
 p.caption {
@@ -89,4 +184,40 @@ p.caption {
 	height: 250px;
 	width: 250px;
 	margin: 10px 40px;
+}
+
+.box {
+	background-color: #af7c7c;
+	margin:0 auto 50px;
+	padding: 5px 10px;
+	width: 200px;
+}
+
+div p {
+	color: black;
+	margin: 0 0 30px;
+}
+
+#inlove {
+	width: 300px;
+	height: auto;
+	float: left;
+	margin: 0 20px 30px;
+	clear: right;
+}
+
+#altaimg {
+	float: left;
+	width: 200px;
+	height: auto;
+	margin: 0 10px 10px;
+	clear: left;
+}
+
+.fallinlove {
+	color: beige;
+}
+
+.yey {
+	margin-bottom: 60px;
 }
