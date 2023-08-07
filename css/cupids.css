@@ -184,11 +184,31 @@ p.caption {
 	height: 250px;
 	width: 250px;
 	margin: 10px 40px;
+	clear: both;
+}
+
+#eros-img {
+	width: 250px;
+	margin: 0;
+	position: relative;
+	display: inline;
+}
+
+#linie1 {
+	float: left;
+	transform: rotate(90deg) scale(1.5);
+	margin: 200px 0 0 120px
+}
+
+#linie2 {
+	transform: rotate(270deg) scale(1.5);
+	margin: 200px 120px 0 0;
+	float: right;
 }
 
 .box {
 	background-color: #af7c7c;
-	margin:0 auto 50px;
+	margin:60px auto 50px;
 	padding: 5px 10px;
 	width: 200px;
 }
@@ -221,3 +241,36 @@ div p {
 .yey {
 	margin-bottom: 60px;
 }
+
+.eros-exp{
+	background-color: white;
+	border: solid darkred 0.5px;
+	text-align: left;
+	padding: 100px 80px 100px 120px;
+	width: 250%;
+	height: 200px;
+	position: absolute;
+	bottom: -20px;
+	left: -350px;
+	text-indent: ;
+}
+
+.eros-exp p {
+	color: darksalmon;
+}
+
+.eros-exp #noun {
+    color: darksalmon;
+	font-style: italic;
+	font-size: 50px;
+	text-indent: -30px;	
+}
+
+#eros-img:hover > .eros-exp{
+    visibility:visible;
+}
+
+.eros-exp{
+    visibility:hidden;
+}
+
