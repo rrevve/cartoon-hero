@@ -21,8 +21,26 @@ header h1 {
 	margin-bottom: 40px;
 }
 
+.links {
+	background-color: white;
+	width: 955px;
+	height: 40px;
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	position: sticky;
+	z-index: -1;
+	top: 10px;
+    bottom: -100%;
+    margin: 40px auto;
+}
+
 .menu {
 	background-color: white;
+	position: sticky;
+	z-index: 1;
+	top: 10px;
+	bottom: 200px;
 }
 
 .menu:after {
@@ -105,6 +123,8 @@ header h1 {
 .tabel2 {
 	width: 480px;
 	margin: 40px auto;
+	z-index: 3;
+	position: relative;
 }
 
 .tabel2:after {
@@ -134,6 +154,8 @@ header img {
 
 .arrow {
  	width: 1000px;
+ 	position: relative;
+ 	z-index: 3;
  }
 
 hr { 
@@ -192,17 +214,18 @@ p.caption {
 	margin: 0;
 	position: relative;
 	display: inline;
+	z-index: 3;
 }
 
 #linie1 {
 	float: left;
 	transform: rotate(90deg) scale(1.5);
-	margin: 200px 0 0 120px
+	margin: 200px 0 0 -100px
 }
 
 #linie2 {
 	transform: rotate(270deg) scale(1.5);
-	margin: 200px 120px 0 0;
+	margin: 200px -90px 0 0;
 	float: right;
 }
 
@@ -274,3 +297,26 @@ div p {
     visibility:hidden;
 }
 
+.div-cu-sag {
+	position: relative;
+}
+
+#arrow-b {
+	position: absolute;
+	z-index: -1;
+	float: right;
+	scale: 0.8;
+    opacity: 80%;
+    top: -120px;
+    right: 0;
+    transform: rotate(-10deg);
+}
+
+#arrow-w {
+	position: absolute;
+	z-index: -1;
+	top: 10px;
+    left: -150px;
+    transform: rotate(25deg);
+    opacity: 80%;
+}
